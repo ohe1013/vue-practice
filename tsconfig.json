@@ -10,6 +10,7 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": true,
+    "noImplicitAny": false,
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
@@ -32,7 +33,13 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "tests/**/*.tsx",
+    "src/store/modules/booksModule.js",
+    "src/store/modules/carts.js",
+    "src/store/modules/carts.js",
+    "src/store/modules/counterModule.js",
+    "src/store/modules/counterModule.js",
+    "src/store/index.js"
   ],
   "exclude": [
     "node_modules"
